@@ -1,16 +1,22 @@
+.main_page_body {
+    background-image: url(https://getwallpapers.com/wallpaper/full/5/3/f/1152179-free-download-chocolate-chip-cookie-wallpaper-1920x1080.jpg);
+}
+
 .main_page_header {
     text-align: center;
     border: 3px solid black;
     border-radius: 30px;
     padding: 20px;
+    background-color: #ADD8E6;
 }
 
-.text_container{
+.header_text_container{
 text-align: center;
 border: 3px solid black;
 border-radius: 30px;
 padding-left: 20px;
 padding-right: 20px;
+background-color: white;
 
 }
 
@@ -32,23 +38,100 @@ padding-right: 20px;
     padding: 20px;
 }
 
+.cookieGameScreen {
+    background-image: url(https://clipart-library.com/img/683843.jpg); 
+}
+
 .gamePlayOutline {
     display: flexbox;
     border: 3px solid black;
     border-radius: 30px;
-    padding: 20px;
+    background-color:white;
 }
 
 .gamePlayCookie {
     border-radius: 30px;
-    width: 50%;
+    width: 40%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
 }
 
-.gamePlayTwo {
+.gamePlayPowerUps {
     border: 3px solid black;
     border-radius: 30px;
+    background-color: white;
 }
+
+.gamePlayHomeButton {
+    width: 25%;
+    height: auto;
+    background-color: white;
+    margin-left: 415px;
+}
+
+.gamePlayContent {
+display: flex;
+justify-content: center;
+margin-top: 50px;
+}
+
+.cookieClickTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cookieCount {
+    text-align: center;
+}
+
+.arrow {
+    width: 10%;
+    height: auto;
+}
+
+.powerUpsHeading {
+    margin: 20px;
+    text-decoration: underline;
+    color: rgb(124, 124, 7);
+}
+
+.powerUpButtons {
+    display: flex;
+    margin: auto;
+}
+
+.youWinHeader {
+text-align: center;
+margin-top: 20px;
+}
+
+.youWinButton {
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-top: 250px;
+}
+
+.crown {
+    width: 100px;
+
+}
+
+.trophy {
+    height: auto;
+    width: 40%;
+    display:flex; 
+    justify-content: center;
+}
+
+.imgsTogether {
+    display: flex;
+    justify-content: center;
+}
+
+.squirrelDance img {
+    width: 100px; 
+    align-items: center;
+  }

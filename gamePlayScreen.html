@@ -6,16 +6,32 @@
     <title>Gameplay Screen</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
+<body class = cookieGameScreen>
+    <div class = "gamePlayContent">
     <div class="gamePlayOutline">
-                <img class="gamePlayCookie" src="https://www.nicepng.com/png/detail/208-2080448_minecraft-icons-png.png">
-        <div class = "gamePlayItems">
-            
+        <img class="gamePlayCookie" src="https://www.nicepng.com/png/detail/208-2080448_minecraft-icons-png.png">
+        <br>
+        <h1 class="cookieClickTitle">Cookies Collected: </h1>
+        <h3 class="cookieCount">0</h3>
     </div>
+    <div class="gamePlayPowerUps">
+        <h1 class ="powerUpsHeading">Power-Ups:</h1>
+        <button title="Multiplies how many cookies you get per click!" class="powerUpButtons">Click Multiplier</button>
+        <br>
+        <button title="Automatically adds one cookie every 5 seconds to your count!" class ="powerUpButtons">Auto-Cookie</button>
+        <a href = youWinScreen.html>
+            <button title="You may click this button after collecting at least 500 cookies!" class="youWinButton">
+                <img class ="crown" src="http://clipartmag.com/images/crown-clipart-no-background-24.png">
+            </button>
+        </a>
         </div>
-        <div class="gamePlayTwo">
-
-        </div>
+</div>
+    <div class = "gamePlayHomeButton">
+        <a href = index.html>
+            <button>
+                <img title ="Go back to the home screen!" class = "arrow" src = "https://www.pinclipart.com/picdir/big/544-5440422_back-arrow-icon-transparent-png-clipart-free-download.png">
+            </button>
+        </a>
     </div>
 </body>
 </html>
