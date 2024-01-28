@@ -103,9 +103,26 @@ margin-top: 50px;
     margin: auto;
 }
 
+.youWinScreen {
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.NpOJbWrxXGTaKLi4YgJmHAHaFl&pid=Api&P=0&h=220);
+}
+
+.youWinTitle{
+    display: flex;
+    justify-content:center; 
+}
+
 .youWinHeader {
+    background: yellow; 
 text-align: center;
 margin-top: 20px;
+border: 3px solid black; 
+border-radius: 30px;
+width: fit-content;
+}
+
+.youWinText{
+margin: 0px 10px 0px 10px;
 }
 
 .youWinButton {
@@ -124,6 +141,7 @@ margin-top: 20px;
     width: 40%;
     display:flex; 
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .imgsTogether {
@@ -135,3 +153,36 @@ margin-top: 20px;
     width: 100px; 
     align-items: center;
   }
+
+.spongebobEating img{
+    width: 250px;
+}
+
+.finalScreenButtons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.youWinButtons {
+    margin-top: 50px; 
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+
+    background-color: greenyellow;
+    
+   
+}
+    
+
+.everythingWinPage {
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color:white;
+    margin-top: 50px;
+}
