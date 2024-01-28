@@ -1,12 +1,54 @@
 .main_page_header {
-    
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: ;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
 }
 
-*{
+.text_container{
+text-align: center;
+border: 3px solid black;
+border-radius: 30px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.cookie_image img {    
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid black;
+    border-radius: 30px;
+}
+
+.main_page_button {
+    background-color: greenyellow;
+    
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.gamePlayOutline {
+    display: flexbox;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.gamePlayCookie {
+    border-radius: 30px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gamePlayTwo {
+    border: 3px solid black;
+    border-radius: 30px;
 }
