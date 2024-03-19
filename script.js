@@ -1,7 +1,10 @@
-if(btn){
-    btn.addEventListener("click", nextScreen);
+const cookie = document.querySelector('#gameCookie');
+score = 0;
+
+if(cookie){
+    cookie.addEventListener("click", addScore);
 }
 
-function nextScreen(){
-    window.location.href = 'gameScreen.html';
+function addScore(){
+    console.log("hi");
 }

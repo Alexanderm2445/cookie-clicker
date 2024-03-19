@@ -51,12 +51,17 @@ background-color: white;
 
 .gamePlayCookie {
     border-radius: 30px;
-    width: 40%;
+    width: 60%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 60px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+}
+
+.gamePlayCookie:active {
+    transform: scale(0.9);
 }
 
 .gamePlayPowerUps {
