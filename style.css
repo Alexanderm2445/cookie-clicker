@@ -191,3 +191,7 @@ margin: 0px 10px 0px 10px;
     background-color:white;
     margin-top: 50px;
 }
+
+#cookieCount {
+    text-align: center;
+}
